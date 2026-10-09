@@ -1,0 +1,1 @@
+﻿[System.IO.File]::WriteAllText("D:\\COMPUTING PROJECT\\web_ppdb\\public\\js\\ocr-engine.js", (Get-Content "D:\\COMPUTING PROJECT\\web_ppdb\\public\\js\\ocr_src.js" -Raw -Encoding UTF8), [System.Text.Encoding]::UTF8); Write-Host "Done"
